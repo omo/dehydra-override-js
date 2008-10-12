@@ -15,7 +15,7 @@ public:
 	// (failed to) override non-exising method
 	virtual void badOverride() MY_OVERRIDE {}
 	// (failed to) override method with incompatible type
-	virtual void mistakenlyOverride(int ) MY_OVERRIDE {}
+	virtual void shouldOverride(int ) MY_OVERRIDE {}
 	// (failed to) override non-virtual method
 	virtual void neverOverride() MY_OVERRIDE {}
 	// no problem. MY_OVERRIDE is not specified.

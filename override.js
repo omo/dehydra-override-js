@@ -99,9 +99,9 @@ function process_type(c)
     if (m.isFunction && hasAttribute(m, "MY_override")) {
       let n = overriding(c, m);
       if (n) {
-	print("OK:" + m.name + " ovrrides " + n.name);
+	print("OK: " + m.name + " ovrrides " + n.name);
       } else {
-	print("NG:" + m.name + " violates overriding constraint!");
+	print("NG: " + m.name + " violates overriding constraint!");
       }
     }
   }
